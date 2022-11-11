@@ -1,0 +1,5 @@
+gym==0.25.2
+jupyter==1.0.0
+matplotlib==3.6.1
+pygame==2.1.0
+torch==1.12.1

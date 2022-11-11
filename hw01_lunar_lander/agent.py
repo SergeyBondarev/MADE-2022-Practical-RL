@@ -9,5 +9,5 @@ class Agent:
         self.model = torch.load(__file__[:-8] + "/agent.pkl")
         
     def act(self, state):
-        return 0 # TODO
+        return self.model(torch.tensor(state)).argmax(-1).numpy()
 
